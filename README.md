@@ -54,7 +54,7 @@ JWT_SECRET_KEY=your-secret-key
 
 3. Using Docker (Recommended):
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 The application will be available at:
@@ -66,6 +66,8 @@ The application will be available at:
 
 Backend:
 ```bash
+cd backend
+
 # Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
@@ -86,6 +88,23 @@ npm install
 
 # Start the development server
 npm start
+```
+
+## Project Structure
+
+```
+.
+├── backend/               # Backend service
+│   ├── app/              # FastAPI application
+│   │   └── main.py       # Main application file
+│   ├── requirements.txt  # Python dependencies
+│   └── Dockerfile.backend # Backend Dockerfile
+├── frontend/             # Frontend service
+│   ├── src/              # React source code
+│   ├── public/           # Static files
+│   └── Dockerfile        # Frontend Dockerfile
+├── docker-compose.yml    # Docker Compose configuration
+└── README.md            # Project documentation
 ```
 
 ## Usage Guide

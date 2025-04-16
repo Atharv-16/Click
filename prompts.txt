@@ -1,0 +1,35 @@
+# AI Prompts Used in Development
+
+## Project Setup and Structure
+1. "Create a web-based application with a simple user interface (UI) that facilitates data ingestion between a ClickHouse database and Flat Files. The application must support bidirectional data flow, handle JWT token-based authentication, allow column selection, and report record counts."
+
+## Backend Development
+1. "Create a FastAPI backend with endpoints for ClickHouse connection, table listing, column selection, and data ingestion."
+2. "Implement JWT token-based authentication for ClickHouse connections."
+3. "Create endpoints for file upload and download functionality."
+
+## Frontend Development
+1. "Create a React TypeScript frontend with Material-UI components for a modern interface."
+2. "Implement a step-by-step wizard interface for data ingestion."
+3. "Create components for source selection, connection configuration, column selection, data preview, and process status."
+
+## Docker Configuration
+1. "Create Docker Compose configuration for the full stack application including ClickHouse, backend, and frontend services."
+2. "Create Dockerfiles for both backend and frontend services."
+
+## Testing and Documentation
+1. "Create comprehensive README with setup instructions, usage guide, and testing information."
+2. "Document error handling and troubleshooting steps."
+
+## Implementation Details
+1. "Implement bidirectional data flow between ClickHouse and flat files."
+2. "Add progress tracking and completion reporting."
+3. "Implement data preview functionality."
+4. "Add error handling with user-friendly messages."
+
+## Code Review and Optimization
+1. "Review and optimize the code for performance and security."
+2. "Ensure proper error handling and user feedback."
+3. "Implement efficient data handling with batching/streaming."
+
+Note: These prompts were used with an AI coding assistant to help develop the application. The actual implementation was done through iterative development and testing. 
